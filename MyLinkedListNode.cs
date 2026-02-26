@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ClassLibrary1
+﻿namespace ClassLibrary1
 {
-    internal class Class2
+    class MyLinkedListNode <T> 
     {
+        public T value { get; set; }
+        public MyLinkedListNode<T> Next { get; set; }
+        public MyLinkedListNode(T value)
+        {
+            value = value;
+        }
     }
 }
