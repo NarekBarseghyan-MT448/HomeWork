@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Narek\\source\\repos\\ClassLibrary1\\ClassLibrary1\\ClassLibrary1.csproj",
-      "projectName": "ClassLibrary1",
-      "projectPath": "C:\\Users\\Narek\\source\\repos\\ClassLibrary1\\ClassLibrary1\\ClassLibrary1.csproj",
+      "projectUniqueName": "C:\\Users\\Narek\\source\\repos\\ClassLibrary1\\ClassLibrary1\\LinkedListProj.csproj",
+      "projectName": "LinkedListProj",
+      "projectPath": "C:\\Users\\Narek\\source\\repos\\ClassLibrary1\\ClassLibrary1\\LinkedListProj.csproj",
       "packagesPath": "C:\\Users\\Narek\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Narek\\source\\repos\\ClassLibrary1\\ClassLibrary1\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,12 +1,13 @@
-﻿namespace ClassLibrary1
+﻿namespace LinkedListProj;
+
+public class MyLinkedListNode<T>
 {
-    class MyLinkedListNode <T> 
+
+    public T Value { get; set; }
+    public MyLinkedListNode<T> Next { get; set; }
+    public MyLinkedListNode(T value)
     {
-        public T value { get; set; }
-        public MyLinkedListNode<T> Next { get; set; }
-        public MyLinkedListNode(T value)
-        {
-            value = value;
-        }
+
+        Value = value;
     }
 }
