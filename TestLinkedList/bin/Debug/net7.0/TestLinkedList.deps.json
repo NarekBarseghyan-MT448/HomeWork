@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "TestLinkedList/1.0.0": {
+        "dependencies": {
+          "LinkedListProj": "1.0.0",
+          "MyStackProj": "1.0.0"
+        },
+        "runtime": {
+          "TestLinkedList.dll": {}
+        }
+      },
+      "LinkedListProj/1.0.0": {
+        "runtime": {
+          "LinkedListProj.dll": {}
+        }
+      },
+      "MyStackProj/1.0.0": {
+        "dependencies": {
+          "LinkedListProj": "1.0.0"
+        },
+        "runtime": {
+          "MyStackProj.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestLinkedList/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LinkedListProj/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyStackProj/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

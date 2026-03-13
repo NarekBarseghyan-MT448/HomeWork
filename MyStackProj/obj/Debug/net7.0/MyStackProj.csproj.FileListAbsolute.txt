@@ -1,0 +1,15 @@
+C:\Users\Narek\source\repos\ClassLibrary1\MyStackProj\bin\Debug\net7.0\MyStackProj.deps.json
+C:\Users\Narek\source\repos\ClassLibrary1\MyStackProj\bin\Debug\net7.0\MyStackProj.dll
+C:\Users\Narek\source\repos\ClassLibrary1\MyStackProj\bin\Debug\net7.0\MyStackProj.pdb
+C:\Users\Narek\source\repos\ClassLibrary1\MyStackProj\bin\Debug\net7.0\LinkedListProj.dll
+C:\Users\Narek\source\repos\ClassLibrary1\MyStackProj\bin\Debug\net7.0\LinkedListProj.pdb
+C:\Users\Narek\source\repos\ClassLibrary1\MyStackProj\obj\Debug\net7.0\MyStackProj.csproj.AssemblyReference.cache
+C:\Users\Narek\source\repos\ClassLibrary1\MyStackProj\obj\Debug\net7.0\MyStackProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Narek\source\repos\ClassLibrary1\MyStackProj\obj\Debug\net7.0\MyStackProj.AssemblyInfoInputs.cache
+C:\Users\Narek\source\repos\ClassLibrary1\MyStackProj\obj\Debug\net7.0\MyStackProj.AssemblyInfo.cs
+C:\Users\Narek\source\repos\ClassLibrary1\MyStackProj\obj\Debug\net7.0\MyStackProj.csproj.CoreCompileInputs.cache
+C:\Users\Narek\source\repos\ClassLibrary1\MyStackProj\obj\Debug\net7.0\MyStackProj.csproj.CopyComplete
+C:\Users\Narek\source\repos\ClassLibrary1\MyStackProj\obj\Debug\net7.0\MyStackProj.dll
+C:\Users\Narek\source\repos\ClassLibrary1\MyStackProj\obj\Debug\net7.0\refint\MyStackProj.dll
+C:\Users\Narek\source\repos\ClassLibrary1\MyStackProj\obj\Debug\net7.0\MyStackProj.pdb
+C:\Users\Narek\source\repos\ClassLibrary1\MyStackProj\obj\Debug\net7.0\ref\MyStackProj.dll
