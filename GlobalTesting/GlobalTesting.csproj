@@ -10,10 +10,14 @@
   <ItemGroup>
     <ProjectReference Include="..\BinaryTreeLibrary\BinaryTreeLibrary.csproj" />
     <ProjectReference Include="..\DataStructuresLibraries\LinkedListLibrary.csproj" />
+    <ProjectReference Include="..\HashTablesProj\HashTablesProj.csproj" />
     <ProjectReference Include="..\MyBubbleSortProj\MyBubbleSortProj.csproj" />
     <ProjectReference Include="..\MyInsertionSortProj\MyInsertionSortProj.csproj" />
+    <ProjectReference Include="..\MyMergeSortProj\MyMergeSortProj.csproj" />
+    <ProjectReference Include="..\MyQuickSortProj\MyQuickSortProj.csproj" />
     <ProjectReference Include="..\MySelectionSortProj\MySelectionSortProj.csproj" />
     <ProjectReference Include="..\QueueLibrary\QueueLibrary.csproj" />
+    <ProjectReference Include="..\SetLib\SetLib.csproj" />
     <ProjectReference Include="..\StackLib\StackLibrary.csproj" />
   </ItemGroup>
 

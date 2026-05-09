@@ -2,11 +2,13 @@
   <Project Path="BinaryTreeLibrary/BinaryTreeLibrary.csproj" />
   <Project Path="DataStructuresLibraries/LinkedListLibrary.csproj" />
   <Project Path="GlobalTesting/GlobalTesting.csproj" />
-  <Project Path="HashTablesProj/HashTablesProj.csproj" />
+  <Project Path="HashTablesProj/HashTablesProj.csproj" Id="74704955-6ea4-4d14-945e-34d21d94c41d" />
   <Project Path="MyBubbleSortProj/MyBubbleSortProj.csproj" Id="cb257f3c-f296-43db-8b06-d49642db473a" />
+  <Project Path="MyChessProj/MyChessProj.csproj" Id="75a6d2f3-e83d-478b-bac2-14411e560602" />
   <Project Path="MyInsertionSortProj/MyInsertionSortProj.csproj" Id="f6a1d772-2938-4d8e-9d60-d96137404fd4" />
   <Project Path="MyMergeSortProj/MyMergeSortProj.csproj" Id="af88a2fa-a837-4fb5-80f0-51027d558188" />
   <Project Path="MyPriortyQueue/MyPriortyQueueLibrary.csproj" Id="dd987de4-e5e2-416f-9c54-d10aab5968c3" />
+  <Project Path="MyQuickSortProj/MyQuickSortProj.csproj" Id="955b6d88-fd12-41ea-bc51-f6675e765c02" />
   <Project Path="MySelectionSortProj/MySelectionSortProj.csproj" Id="75df149b-c898-4617-aabd-843b677e53ce" />
   <Project Path="PostfixCalculator/PostfixCalculator.csproj" />
   <Project Path="QueueLibrary/QueueLibrary.csproj" />

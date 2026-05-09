@@ -5,6 +5,10 @@ using BinaryTreeLibrary;
 using MyBubbleSortProj;
 using MyInsertionSortProj;
 using MySelectionSortProj;
+using MyQuickSortProj;
+using MyMergeSortProj;
+using HashTablesProj;
+using SetLib;
 
 namespace GlobalTesting;
 
@@ -19,6 +23,11 @@ internal class Program
         TestBubbleSort();
         TestInsertionSort();
         TestSelectionSort();
+        TestQuickSort();
+        TestMergeSort();
+        TestHashtable();
+        TestSet();
+
 
         Console.WriteLine("\n--- All tests completed ---");
     }
@@ -164,6 +173,100 @@ internal class Program
         Console.WriteLine($"\nOriginal cities: {string.Join(", ", cities)}");
         stringSorter.SelectionSort(cities);
         Console.WriteLine($"Sorted cities:   {string.Join(", ", cities)}");
+
+        Console.WriteLine();
+    }
+
+    static void TestQuickSort()
+    {
+        Console.WriteLine("### Testing Quick Sort ###");
+
+        var sorter = new MyQuickSort<int>();
+        int[] numbers = { 80, 10, 30, 90, 40, 50, 70 };
+
+        Console.WriteLine($"Original array: {string.Join(", ", numbers)}");
+        sorter.QuickSort(numbers);
+        Console.WriteLine($"Sorted array:   {string.Join(", ", numbers)}");
+
+        var stringSorter = new MyQuickSort<string>();
+        string[] languages = { "C#", "Python", "Java", "C++", "JavaScript" };
+
+        Console.WriteLine($"\nOriginal languages: {string.Join(", ", languages)}");
+        stringSorter.QuickSort(languages);
+        Console.WriteLine($"Sorted languages:   {string.Join(", ", languages)}");
+
+        Console.WriteLine();
+    }
+
+    static void TestMergeSort()
+    {
+        Console.WriteLine("### Testing Merge Sort ###");
+
+        var sorter = new MyMergeSort<int>();
+        int[] numbers = { 38, 27, 43, 3, 9, 82, 10 };
+
+        Console.WriteLine($"Original array: {string.Join(", ", numbers)}");
+        sorter.MergeSort(numbers);
+        Console.WriteLine($"Sorted array:   {string.Join(", ", numbers)}");
+
+        var stringSorter = new MyMergeSort<string>();
+        string[] animals = { "Zebra", "Elephant", "Cat", "Dog", "Bear" };
+
+        Console.WriteLine($"\nOriginal animals: {string.Join(", ", animals)}");
+        stringSorter.MergeSort(animals);
+        Console.WriteLine($"Sorted animals:   {string.Join(", ", animals)}");
+
+        Console.WriteLine();
+    }
+
+    static void TestHashtable()
+    {
+        Console.WriteLine("### Testing Custom Hashtable (Folding Hash) ###");
+
+        var table = new MyHashTable<string, string>();
+
+        table.Add("User1", "Admin");
+        table.Add("User2", "Editor");
+        table.Add("User3", "Guest");
+
+        Console.WriteLine($"User1 role: {table.Get("User1")}");
+        Console.WriteLine($"Contains 'User3'? {table.ContainsKey("User3")}");
+        Console.WriteLine($"Total elements: {table.Count}");
+
+        Console.WriteLine();
+    }
+
+    static void TestSet()
+    {
+        Console.WriteLine("### Testing Custom Set (SetLib) ###");
+
+        var setA = new MySet<int>();
+        setA.AddRange(new[] { 1, 2, 3, 4, 5 });
+
+        var setB = new MySet<int>();
+        setB.AddRange(new[] { 4, 5, 6, 7, 8 });
+
+        Console.WriteLine($"Set A: {{{string.Join(", ", setA)}}}");
+        Console.WriteLine($"Set B: {{{string.Join(", ", setB)}}}");
+
+        // Միավորում (Union): 1, 2, 3, 4, 5, 6, 7, 8
+        var union = setA.Union(setB);
+        Console.WriteLine($"Union: {{{string.Join(", ", union)}}}");
+
+        // Հատում (Intersection): 4, 5
+        var intersection = setA.Intersection(setB);
+        Console.WriteLine($"Intersection: {{{string.Join(", ", intersection)}}}");
+
+        // Տարբերություն (Difference A - B): 1, 2, 3
+        var difference = setA.Difference(setB);
+        Console.WriteLine($"Difference (A - B): {{{string.Join(", ", difference)}}}");
+
+        // Սիմետրիկ տարբերություն: 1, 2, 3, 6, 7, 8
+        var symDifference = setA.SymmetricDifference(setB);
+        Console.WriteLine($"Symmetric Difference: {{{string.Join(", ", symDifference)}}}");
+
+        Console.WriteLine($"Set A contains 3? {setA.Contains(3)}");
+        Console.WriteLine($"Set A count: {setA.Count}");
 
         Console.WriteLine();
     }
