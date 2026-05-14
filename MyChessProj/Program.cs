@@ -8,14 +8,12 @@ class Program
     static void Main()
     {
         int n = 8;
-
-        Console.WriteLine("Գլխավոր անկյունագիծ:");
+=
         PrintMainDiagonal(n);
-        Console.WriteLine("---------------------------");
 
         Console.WriteLine("Երկրորդական անկյունագիծ:");
         PrintSecondDiagonal(n);
-        Console.WriteLine("---------------------------");
+==
 
         // Նավակի քայլի ստուգում
         Console.WriteLine($"Կարո՞ղ է նավակը (2,3)-ից գնալ (5,3): {PrintCanRookMove(2, 3, 5, 3)}");
