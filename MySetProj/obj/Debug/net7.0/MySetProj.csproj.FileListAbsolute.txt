@@ -1,0 +1,12 @@
+C:\Users\Narek\source\repos\ClassLibrary4\MySetProj\bin\Debug\net7.0\MySetProj.deps.json
+C:\Users\Narek\source\repos\ClassLibrary4\MySetProj\bin\Debug\net7.0\MySetProj.dll
+C:\Users\Narek\source\repos\ClassLibrary4\MySetProj\bin\Debug\net7.0\MySetProj.pdb
+C:\Users\Narek\source\repos\ClassLibrary4\MySetProj\obj\Debug\net7.0\MySetProj.csproj.AssemblyReference.cache
+C:\Users\Narek\source\repos\ClassLibrary4\MySetProj\obj\Debug\net7.0\MySetProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Narek\source\repos\ClassLibrary4\MySetProj\obj\Debug\net7.0\MySetProj.AssemblyInfoInputs.cache
+C:\Users\Narek\source\repos\ClassLibrary4\MySetProj\obj\Debug\net7.0\MySetProj.AssemblyInfo.cs
+C:\Users\Narek\source\repos\ClassLibrary4\MySetProj\obj\Debug\net7.0\MySetProj.csproj.CoreCompileInputs.cache
+C:\Users\Narek\source\repos\ClassLibrary4\MySetProj\obj\Debug\net7.0\MySetProj.dll
+C:\Users\Narek\source\repos\ClassLibrary4\MySetProj\obj\Debug\net7.0\refint\MySetProj.dll
+C:\Users\Narek\source\repos\ClassLibrary4\MySetProj\obj\Debug\net7.0\MySetProj.pdb
+C:\Users\Narek\source\repos\ClassLibrary4\MySetProj\obj\Debug\net7.0\ref\MySetProj.dll

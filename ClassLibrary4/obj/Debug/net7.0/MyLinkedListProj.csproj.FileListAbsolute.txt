@@ -1,0 +1,12 @@
+C:\Users\Narek\source\repos\ClassLibrary4\ClassLibrary4\bin\Debug\net7.0\MyLinkedListProj.deps.json
+C:\Users\Narek\source\repos\ClassLibrary4\ClassLibrary4\bin\Debug\net7.0\MyLinkedListProj.dll
+C:\Users\Narek\source\repos\ClassLibrary4\ClassLibrary4\bin\Debug\net7.0\MyLinkedListProj.pdb
+C:\Users\Narek\source\repos\ClassLibrary4\ClassLibrary4\obj\Debug\net7.0\MyLinkedListProj.csproj.AssemblyReference.cache
+C:\Users\Narek\source\repos\ClassLibrary4\ClassLibrary4\obj\Debug\net7.0\MyLinkedListProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Narek\source\repos\ClassLibrary4\ClassLibrary4\obj\Debug\net7.0\MyLinkedListProj.AssemblyInfoInputs.cache
+C:\Users\Narek\source\repos\ClassLibrary4\ClassLibrary4\obj\Debug\net7.0\MyLinkedListProj.AssemblyInfo.cs
+C:\Users\Narek\source\repos\ClassLibrary4\ClassLibrary4\obj\Debug\net7.0\MyLinkedListProj.csproj.CoreCompileInputs.cache
+C:\Users\Narek\source\repos\ClassLibrary4\ClassLibrary4\obj\Debug\net7.0\MyLinkedListProj.dll
+C:\Users\Narek\source\repos\ClassLibrary4\ClassLibrary4\obj\Debug\net7.0\refint\MyLinkedListProj.dll
+C:\Users\Narek\source\repos\ClassLibrary4\ClassLibrary4\obj\Debug\net7.0\MyLinkedListProj.pdb
+C:\Users\Narek\source\repos\ClassLibrary4\ClassLibrary4\obj\Debug\net7.0\ref\MyLinkedListProj.dll
